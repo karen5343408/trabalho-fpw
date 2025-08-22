@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body{ /*Estilizando a fonte e o fundo geral*/
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #D5D0C4;
+}
+
+header{ /*Estilizando a fonte e o fundo do cabeçalho*/
+    background-color: #9ca5b144;
+    font-size: 2rem;
+    display: inline-flex;
+    width: 100%;
+    color: #3D5E6B;
+}
+
+.nome{ /*Diagramando o nome do cabeçalho*/
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.foto-perfil{ /*Diagramando a foto do cabeçalho*/
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.container-menu{ /*Diagramando o menu*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box-menu{ /*Estilizando os ícones do menu*/
+    box-sizing: border-box;
+    background: #877c735d;
+    margin: 5px;
+    color: #44474D;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-color: #44474D;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+a{ /*Neutralizando os efeitos dos links dos ícones*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-menu:hover{ /*Estilizando os ícones ao passar o mouse sobre eles*/
+    background: #3D5E6B;
+    color: #D5D0C4;
+    border-color: #D5D0C4;
+    border-style: dotted;
+}
+
+footer{ /* Estilizando e Diagramando o rodapé com as redes sociais*/
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3d5e6b50;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #44474D;
+}
+
+/* ATÉ AQUI É IGUAL PARA TODAS AS PÁGINAS */
+
+h2{ /*Estilizando os subtítulos: Formação Educacional; Projetos e Liga Academica; Cursos Complementares; e Idiomas*/
+    background-color: rgba(255, 255, 255, 0.623); 
+    color: #3D5E6B;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container1{ /*Estilizando e diagramando os containers que possuem o título à esquerda*/
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    background-color: #9ca5b144;
+    margin: 50px;
+}
+
+.container2{ /*Estilizando e diagramando os containers que possuem o título à direita*/
+    display: flex;
+    flex-direction: row-reverse;
+    height: 450px;
+    background-color: #9ca5b144;
+    margin: 50px;
+}
+
+.box-titulo-formacao{ /*Estilizando o título de "Formação Educacional"*/
+    background-image: url(../Imagens/formacao-educacional.jpg);
+    opacity: 0.6;
+    width: 300px;
+    align-content: center;
+}
+
+.box-titulo-projetos{ /*Estilizando o título de "Projetos e Liga Acadêmica"*/
+    background-image: url(../Imagens/projetos.jpg);
+    opacity: 0.6;
+    width: 300px;
+    align-content: center;
+}
+
+.box-titulo-cursos{ /*Estilizando o título de "Cursos Complementares"*/
+    background-image: url(../Imagens/cursos.jpg);
+    opacity: 0.6;
+    width: 300px;
+    align-content: center;
+}
+
+.box-titulo-idiomas{ /*Estilizando o título de "Idiomas"*/
+    background-image: url(../Imagens/idiomas.jpg);
+    opacity: 0.6;
+    width: 300px;
+    align-content: center;
+}
+
+.box-conteudo1{ /*Estilizando a caixa de conteúdo dos container1*/
+    margin-left: 50px;
+    font-size: 20px;
+    align-content: center;
+    color: #44474D;
+}
+
+.box-conteudo2{ /*Estilizando a caixa de conteúdos dos container2*/
+    margin-right: 50px;
+    font-size: 20px;
+    align-content: center;
+    color: #44474D;
+    text-align: right;
+}
+
+

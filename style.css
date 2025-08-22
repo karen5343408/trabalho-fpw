@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body{ /*Estilizando a fonte e o fundo geral*/
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #D5D0C4;
+}
+
+header{ /*Estilizando a fonte e o fundo do cabeçalho*/
+    background-color: #9ca5b144;
+    font-size: 2rem;
+    display: inline-flex;
+    width: 100%;
+    color: #3D5E6B;
+}
+
+.nome{ /*Diagramando o nome do cabeçalho*/
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.foto-perfil{ /*Diagramando a foto do cabeçalho*/
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.container-menu{ /*Diagramando o menu*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box-menu{ /*Estilizando os ícones do menu*/
+    box-sizing: border-box;
+    background: #877c735d;
+    margin: 5px;
+    color: #44474D;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-color: #44474D;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+a{ /*Neutralizando os efeitos dos links dos ícones*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-menu:hover{ /*Estilizando os ícones ao passar o mouse sobre eles*/
+    background: #3D5E6B;
+    color: #D5D0C4;
+    border-color: #D5D0C4;
+    border-style: dotted;
+}
+
+footer{ /* Estilizando e Diagramando o rodapé com as redes sociais*/
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3d5e6b50;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #44474D;
+}
+
+/* ATÉ AQUI É IGUAL PARA TODAS AS PÁGINAS */
+
+h2{ /*Estilizando os títulos das sections*/
+    text-align: center; 
+    font-size: 2rem;
+    color: #3D5E6B;
+}
+
+p{ /*Estilizando o conteúdo das sections*/
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.sobremim{ /*Estilizando o campo "Sobre Mim"*/
+    margin: 10px;
+    padding: 10px;
+    background-color: #9ca5b144;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #877C73;
+}
+
+.container-body1{ /*Diagramando o container com as box's pontos, procedencia e hobbies*/
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.container-body2{ /*Diagramando o container com as box's procedencia e hobbies*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.box-pontos{ /*Estilizando o campo "Pontos Fortes e Fracos"*/
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #9ca5b144;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #877C73;
+}
+
+.box-procedencia{ /*Estilizando o campo "Procedencia*/
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #9ca5b144;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #877C73;
+}
+
+.box-hobbies{ /*Estilizando o campo "Hobbies"*/
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #9ca5b144;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #877C73;
+}
+

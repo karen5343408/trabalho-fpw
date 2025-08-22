@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{ /*Estilizando a fonte e o fundo geral*/
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #D5D0C4;
+}
+
+header{ /*Estilizando a fonte e o fundo do cabeçalho*/
+    background-color: #9ca5b144;
+    font-size: 2rem;
+    display: inline-flex;
+    width: 100%;
+    color: #3D5E6B;
+}
+
+.nome{ /*Diagramando o nome do cabeçalho*/
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.foto-perfil{ /*Diagramando a foto do cabeçalho*/
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.container-menu{ /*Diagramando o menu*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box-menu{ /*Estilizando os ícones do menu*/
+    box-sizing: border-box;
+    background: #877c735d;
+    margin: 5px;
+    color: #44474D;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-color: #44474D;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+a{ /*Neutralizando os efeitos dos links dos ícones*/
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-menu:hover{ /*Estilizando os ícones ao passar o mouse sobre eles*/
+    background: #3D5E6B;
+    color: #D5D0C4;
+    border-color: #D5D0C4;
+    border-style: dotted;
+}
+
+footer{ /* Estilizando e Diagramando o rodapé com as redes sociais*/
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3d5e6b50;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #44474D;
+}
+
+/* ATÉ AQUI É IGUAL PARA TODAS AS PÁGINAS */
+
+.titulo{ /*Estilizando e diagramando o título da página*/
+    background-color: #9ca5b144;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+
+h2{ /*Estilizando os subtítulos (nome dos sites)*/
+    color: #3D5E6B;
+}
+
+.container{ /*Diagramando o container com os box's dos sites*/
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box{ /*Estilizando os box's dos sites*/
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+    border-style: dotted;
+    border-color: #3D5E6B;
+    margin: 20px;
+    padding: 20px;    
+}
+
+button{ /*Estilizando o botão de acesso aos sites*/
+    background-color: #D5D0C4;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+button:hover{ /*Estilizando o botão ao passar o mouse sobre ele*/
+    background-color: #3d5e6b73;
+}
